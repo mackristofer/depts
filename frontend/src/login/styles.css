@@ -1,3 +1,68 @@
-h1 {
-    color: white;
+.container-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.container-form {
+  width: 551px;
+  height: 490px;
+  padding: 0 50px;
+}
+
+.container-form input {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.container-form h1 {
+  margin: 60px 117px 65px 117px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #263238;
+}
+
+.input-erro {
+  margin-bottom: 20px;
+  color: red;
+  font-size: 12px;
+}
+
+.login-erro {
+  margin-bottom: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+.captcha {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  padding: 10px 100px;
+  background-color: #407bff;
+  border-radius: 10px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  cursor: pointer;
+}
+
+.btn button:disabled{
+    background: #b0dff7;
+    cursor: none;
 }

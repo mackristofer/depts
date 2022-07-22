@@ -29,7 +29,9 @@ function Lista() {
       <>{dept.map((d) => (
         <p>{d.name}</p>
       ))}
+      <div className="btn">
       <button onClick={handleLogoutClick}>Sair</button>
+      </div>
       </>
     )
   }

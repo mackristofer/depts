@@ -1,9 +1,11 @@
-function Topo() {
+import './styles.css';
 
-    return (
-<h1>DsDepartamento</h1>
-    )
-  }
-  
-  export default Topo;
-  
+function Topo() {
+  return(
+    <div className="container">
+       <div><p>Depts</p></div>
+    </div>
+  );
+}
+
+export default Topo;

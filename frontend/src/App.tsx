@@ -1,6 +1,5 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css'
 import Lista from './lista';
 import Login from './login';
 import PrivateRoute from './rotaprivada';
