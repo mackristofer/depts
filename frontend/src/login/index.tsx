@@ -24,7 +24,7 @@ function Login() {
 
   useEffect(() => {
     isAuthenticated() && navigate("/lista");
-  }, [captchaStatus]);
+  }, []);
 
   const onSubmit = (data: Credentials) => {
     requestBackendLogin(data)

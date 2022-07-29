@@ -12,6 +12,7 @@ function Lista() {
   const handleLogoutClick = () => {
      removeAuthData();
     navigate('/');
+    window.location.reload();
   };
 
   useEffect(() => {
