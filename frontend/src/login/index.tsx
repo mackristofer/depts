@@ -78,7 +78,7 @@ function Login() {
           </div>
           <div className="captcha">
             <ReCAPTCHA
-              sitekey="6LeyZRIhAAAAAEVsoXygrRNuXD6fTxSSB9BrXn2z"
+              sitekey={import.meta.env.VITE_SITE_KEY}
               onChange={onChange}
               onExpired={onExpired}
             />
