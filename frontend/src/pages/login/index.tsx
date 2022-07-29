@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-import { isAuthenticated } from "../util/auth";
-import { requestBackendLogin } from "../util/requests";
-import { saveAuthData } from "../util/storage";
+import { isAuthenticated } from "../../util/auth";
+import { requestBackendLogin } from "../../util/requests";
+import { saveAuthData } from "../../util/storage";
 import ReCAPTCHA from "react-google-recaptcha";
 import "./styles.css";
 

@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-import { isAuthenticated } from "../util/auth";
+import { isAuthenticated } from "../../util/auth";
 
 type Props = {
   children: JSX.Element;

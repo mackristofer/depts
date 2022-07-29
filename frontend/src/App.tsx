@@ -1,9 +1,9 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Lista from './lista';
-import Login from './login';
-import PrivateRoute from './rotaprivada';
-import Topo from './topo';
+import Lista from './pages/lista';
+import Login from './pages/login';
+import PrivateRoute from './componentes/rotaprivada';
+import Topo from './componentes/topo';
 
 function App() {
 
