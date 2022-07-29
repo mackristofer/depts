@@ -1,6 +1,6 @@
 import './styles.css';
 
-function Topo() {
+function Top() {
   return(
     <div className="container">
        <div><p>Depts</p></div>
@@ -8,4 +8,4 @@ function Topo() {
   );
 }
 
-export default Topo;
+export default Top;

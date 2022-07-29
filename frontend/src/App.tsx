@@ -1,22 +1,22 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Lista from './pages/lista';
-import Login from './pages/login';
-import PrivateRoute from './componentes/rotaprivada';
-import Topo from './componentes/topo';
+import Login from './pages/Login';
+import PrivateRoute from './components/PrivateRoute';
+import Top from './components/Top';
+import List from './pages/List';
 
 function App() {
 
   return (
     <>
-    <Topo />
+    <Top />
     <BrowserRouter>
     <Routes>
       <Route
         path="/lista"
         element={
           <PrivateRoute path="/">
-            <Lista />
+            <List />
           </PrivateRoute>
         }
       />

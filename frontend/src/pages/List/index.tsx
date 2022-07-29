@@ -6,7 +6,7 @@ import { requestBackend } from "../../util/requests";
 import { removeAuthData } from "../../util/storage";
 import "./styles.css";
 
-function Lista() {
+function List() {
   const [dept, setDept] = useState<Departamento[]>([]);
   const navigate = useNavigate();
 
@@ -41,4 +41,4 @@ function Lista() {
   );
 }
 
-export default Lista;
+export default List;
